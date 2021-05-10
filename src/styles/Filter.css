@@ -1,0 +1,10 @@
+.Filter {
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+}
+.Filter span {
+    font-weight: bold;
+}
+.Filter-Item {
+    padding-top: 1rem;
+}

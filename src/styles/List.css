@@ -1,0 +1,52 @@
+.Parent-List-Wrapper {
+    text-align: left;
+    position: absolute;
+    left: 30%;
+    width: 100%;
+    border-left: 1px solid grey;
+
+}
+.Parent-List {
+    padding: 1rem;
+}
+.Parent-Title {
+    font-weight: bold;
+}
+.List-Title{
+    cursor: pointer;
+}
+.List-Child-Wrapper {
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+.Parent-List:first-child {
+    padding-top: 0;
+}
+.Parent-List:last-child {
+    padding-bottom: 0;
+}
+.far {
+    position: relative;
+    transform: translate(-62px, 0);
+    float: left;
+    color: grey
+}
+
+.List-Child-Item {
+    list-style-type: lower-alpha;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+}
+
+.Left-Border {
+    width: 30px;
+    border-bottom: 1px solid grey;
+    transform: translate(-125px, 10px);
+}
+.caret {
+    position: absolute;
+    transform: translate(-92px, 3px);
+    cursor: pointer;
+    border: none;
+    background: none;
+}
